@@ -1,0 +1,20 @@
+@font-face {
+  font-family: IRANSans;
+  src: url("../font/IRANSans-web.woff2");
+}
+@font-face {
+  font-family: IRANSansMedium;
+  src: url("../font/IRANSans-Medium-web.woff2");
+}
+
+* {
+  font-family: IRANSansMedium;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 14px !important;
+}
+@layer  components{
+  
+}
